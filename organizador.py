@@ -6,7 +6,7 @@ import shutil
 pasta_origem = r"C:\\" 
 
 extensao_para_pasta = {
-    "Executáveis" : [".exe"],
+    "Executáveis" : [".exe", ".msi"],
     "Imagens": [".png", ".jpeg", "jpng", ".jpg"],
     "PDFs": [".pdf"],
     "Word": [".docx",".doc"],
