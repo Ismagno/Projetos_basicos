@@ -3,7 +3,9 @@ import os
 import shutil
 
 #coloca o caminho do diretorio entre as aspas abaixo e so funfar o codigo
-pasta_origem = r"C:\\" 
+print("Digite o diretório a ser organizado.")
+print(r"Ex: C:\Users\Download")
+pasta_origem = str(input("Diretório: ")) 
 
 extensao_para_pasta = {
     "Executáveis" : [".exe", ".msi"],
@@ -15,7 +17,10 @@ extensao_para_pasta = {
     "Winrar" : [".zip",".rar",".7z",".tar"],
     "Musicas": [".mp3"],
     "Vídeos": [".mp4"],
-    "Notepads": [".txt"]
+    "Notepads": [".txt"],
+    "Python": [".py"],
+    "Gráfico_Origin": [".opj", ".opju"],
+    "Fontes": [".ttf"]
 }
 
 os.chdir(pasta_origem)
